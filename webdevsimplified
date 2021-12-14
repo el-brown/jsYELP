@@ -1,0 +1,42 @@
+useState
+
+In React “state” is an object that represents the parts of the app that can change.
+If anything in the state changes… say, the temperature goes up to 75° inside, 
+the app should refresh to reflect that new reality. 
+This is what React does when state is changed: it re-renders the entire app.  
+There are a couple of reasons why the state might change but in this bootcamp 
+it will mainly be because the user clicked a button. So I'll focus on that.
+
+
+useState - important react hook
+
+Before you can use it, you have to import the hook you want to use.  Import useState inside curly brackets.
+
+Understand Hooks: 1. Only use hooks inside of functional components. 
+Doesn't work with class components because classes have their own way to 
+do what hooks do.  2. You can't put hooks inside of if statements, functions, loops.  
+They have to be at the top level. 
+
+
+useState returns an array with two values:
+const [currentState, updateState] = useState(pass in the default state)
+
+
+So instead of 0 we can put {count} in the span and it'll show our default count.
+
+-------- show 0 on screen -------------
+
+You want to be able to change the count.  So give the button an onClick={subtract}.  
+Then above create a function that sets the new count.
+This will allow you to update your state.  
+
+Test the minus button. Every time you click it, you're updating the state and the component rerenders.
+
+
+1. There’s a number displayed, starting off at 0
+2. You click a button (that calls your function for changing the state)
+3. The counter increments by 1 (you call setCount to make this happen)
+4. React re-renders the app in response to the state change
+
+
+Dawn and Dusk Examples 

@@ -1,0 +1,9 @@
+var is older, let is more recent update.  
+Let has block scope. (in an if statement etc) 
+Var has function scope (it can still be called outside of the if statement if still in the function).
+Var gets hoisted at the top of the function.  It exists before it's definition, it's just undefined.
+Let exists from it's definition until the end of the block.
+
+== is checking for loose equality.  Compares value only, not type.  1 == "1"  (true)
+=== is checking for strict equality.  Compares both value and type. 1 === "1" (false)
+

@@ -1,0 +1,40 @@
+1 == "1"  This equal sign tries to convert them to the same type so it'll be true.
+1 === "1" This won't convert and so it's false.
+
+let allows you to reassign the value
+const will not allow you to reassign.  Even if you don't assign it anything, it assigns as "undefined."  If it's an object you 
+can add or subtract or change it.  But you cannot reassign a value.  const a = [1,2]  a.push(3) <- that works
+
+Both falsy values.
+undefined = type: undefined
+null = type: object.  Intentional.
+
+GET / POST -  both HTTP requests.  Getting data. Creating and saving data.
+
+JSON - JavaScript Object Notation.  Text-based data format.  It Looks
+like a javascript object. 
+
+Let and Const are block-scoped.
+Const can't be reassigned. Let can.
+Var are function or global scoped
+
+What do you understand about Javascript? A popular web scripting language
+used for front end and back end developing. There's no relationship with java.
+JavaScript is lightweight and so it loads fast, it allows you to interact with 
+the user. Makes UI look good.  Tons of frameworks and libraries work with it.
+
+How to create an object in Javascript.  Use the curly braces.
+How to create an array: use square brackets.
+
+Built in frequently used METHODS: 
+Date() : Returns the present date and time
+Concat() : Joins two strings and returns the new string
+Push() : Adds an item to an array
+Pop() : Removes and returns the last element of an array
+Round() : Rounds the value to the nearest integer and returns it
+Length() : Returns the length of the string
+
+SCOPE:
+Global: available everywhere in your code.
+Local Scope: accessible only whithin 
+

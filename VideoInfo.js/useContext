@@ -1,0 +1,18 @@
+useContext
+
+React.createContext()
+
+Context is broken into two different sections:
+
+Context Provider - Wrap the code that needs the context. Everything inside the Provider
+all have access to the variable(props) and can pass these props all the way down
+to every child.  
+
+In a Class Component:  Context Consumer - Wrap the code 
+
+In a Functional Component: import useContext from React.  Pass in context to useContext
+and then use it inside of whatever code you want.
+const darkTheme = useContext(ThemeContext)
+Gets rid of nesting and just use that one line of code ^
+
+
